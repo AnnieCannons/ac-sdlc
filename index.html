@@ -1,458 +1,335 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+
+<head>
+    <meta charset="utf-8">
 
     <title>AnnieCannons SDLC</title>
 
-    <meta name="description" content="AnnieCannons class slides" />
-    <meta name="author" content="AnnieCannons" />
+    <meta name="description" content="AnnieCannons class slides">
+    <meta name="author" content="AnnieCannons">
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"
-    />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="css/reveal.css" />
-    <link rel="stylesheet" href="css/theme/league.css" id="theme" />
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css" id="theme">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css" />
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
     <!-- Printing and PDF exports -->
     <script>
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.type = "text/css";
-      link.href = window.location.search.match(/print-pdf/gi)
-        ? "css/print/pdf.css"
-        : "css/print/paper.css";
-      document.getElementsByTagName("head")[0].appendChild(link);
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
     <!--[if lt IE 9]>
-      <script src="lib/js/html5shiv.js"></script>
+    <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
-    <div class="reveal">
-      <!-- Any section element inside of this container is displayed as a slide -->
-      <div class="slides">
-        <!--Introduction slide-->
-        <section>
-          <h2>The Software Development Lifecycle</h2>
-        </section>
-        <!--/Intro Slides-->
+</head>
 
-        <section>
-          <h2>I can just start coding right?</h2>
-          <img src="images/nope.gif" class="fragment" alt="Nope Explosion" />
-        </section>
+<body>
 
-        <section>
-          <h2>The software lifecycle overview</h2>
-          <img src="images/sdlc.jpg" alt="Overview" />
-        </section>
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des1.png" alt="Client Collaboration" />
-        </section>
+<div class="reveal">
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des2.png" alt="Planning" />
-        </section>
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des3.png" alt="Design" />
-        </section>
+       <!--Introduction slide-->
+       <section>
+        <h2>The Software Development Lifecycle</h2>
+    </section>
+    <!--/Intro Slides-->
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des4.png" alt="Design" />
-        </section>
+    <section>
+        <h2>I can just start coding right?</h2>
+        <img src="images/nope.gif" class="fragment" alt="Nope Explosion">
+    </section>
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des5.png" alt="Design" />
-        </section>
+    <section>
+        <h2>The software lifecycle overview</h2>
+        <img src="images/sdlc.jpg" alt="Overview">
+    </section>
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des6.png" alt="Development" />
-        </section>
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des1.png" alt="Client Collaboration">
+    </section>
 
-        <section>
-          <h2>Overview of the whole process</h2>
-          <img src="images/des7.png" alt="Testing and Launch" />
-        </section>
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des2.png" alt="Planning">
+    </section>
 
-        <section>
-          <h2>Big Picture</h2>
-          <p>SDLC should result in a high quality system that:</p>
-          <ul>
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des3.png" alt="Design">
+    </section>
+
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des4.png" alt="Design">
+    </section>
+
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des5.png" alt="Design">
+    </section>
+
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des6.png" alt="Development">
+    </section>
+
+    <section>
+        <h2>Overview of the whole process</h2>
+        <img src="images/des7.png" alt="Testing and Launch">
+    </section>
+
+    <section>
+        <h2>Big Picture</h2>
+        <p>SDLC should result in a high quality system that: </p>
+        <ul>
             <li class="fragment">meets or exceeds customer expectations</li>
-            <li class="fragment">
-              reaches completion within time and cost estimates
-            </li>
-            <li class="fragment">
-              works effectively and efficiently in the current and planned IT
-              infrastructure
-            </li>
-            <li class="fragment">
-              is inexpensive to maintain and cost- effective to enhance
-            </li>
-          </ul>
-        </section>
+            <li class="fragment">reaches completion within time and cost estimates </li>
+            <li class="fragment">works effectively and efficiently in the current and planned IT infrastructure </li>
+            <li class="fragment">is inexpensive to maintain and cost- effective to enhance</li>
+        </ul>
+    </section>
 
-        <section>
-          <h2>Development Methods</h2>
-        </section>
+    <section>
+        <h2>Development Methods</h2>
+    </section>
 
-        <section>
-          <h2>SDLC Methods</h2>
-          <p>
-            There are many different ways for a company to set up their SDLC. A
-            lot of it depends on the kind of company it is, the type of product
-            (or website) they are making, and the complexity or the number of
-            people working on the product.
-          </p>
-          <ul>
-            <li class="fragment">
-              Two main categories: agile ("adaptive") and waterfall
-              ("predictive") methods.
-            </li>
-          </ul>
-          <a
-            href="https://www.youtube.com/watch?v=GzzkpAOxHXs"
-            target="_blank"
-            class="fragment"
-            >Watch this</a
-          >
-        </section>
+    <section>
+        <h2>SDLC Methods</h2>
+        <p>There are many different ways for a company to set up their SDLC. A lot of it depends on the kind of company it is, the type of product (or website) they are making, and the complexity or the number of people working on the product.</p>
+        <ul>
+            <li class="fragment">Two main categories: agile ("adaptive") and waterfall ("predictive") methods. </li>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=GzzkpAOxHXs" target="_blank" class="fragment">Watch this</a>
+    </section>
 
-        <section>
-          <h2>Agile</h2>
-          <p>
-            Agile methodologies generally promote a project management process
-            that encourages frequent inspection and adaptation, a leadership
-            philosophy that encourages teamwork, and self-organization and
-            accountability
-          </p>
-          <ul>
-            <li class="fragment">
-              Individuals and interactions over processes and tools
-            </li>
-            <li class="fragment">
-              Working software over comprehensive documentation
-            </li>
-            <li class="fragment">
-              Customer collaboration over contract negotiation
-            </li>
-            <li class="fragment">Responding to change over following a plan</li>
-          </ul>
-        </section>
+    <section>
+        <h2>Agile</h2>
+        <p>Agile methodologies generally promote a project management process that encourages frequent inspection and adaptation, a leadership philosophy that encourages teamwork, and self-organization and accountability</p>
+        <ul>
+            <li class="fragment">Individuals and interactions over processes and tools </li>
+            <li class="fragment">Working software over comprehensive documentation </li>
+            <li class="fragment">Customer collaboration over contract negotiation </li>
+            <li class="fragment">Responding to change over following a plan </li>
+        </ul>
+    </section>
 
-        <section>
-          <h2>Agile: Sprints</h2>
-          <p>
-            Sprints: a set period of time during which specific work has to be
-            completed and made ready for review.
-          </p>
-          <p>
-            The duration of a sprint is determined by the scrum master, the
-            team's facilitator. Once the team reaches a consensus for how many
-            days a sprint should last, all future sprints should be the same.
-            Traditionally, a sprint can last from one week to 30 days.
-          </p>
-        </section>
+    <section>
+        <h2>Agile: Sprints</h2>
+        <p>Sprints: a set period of time during which specific work has to be completed and made ready for review.</p>
+        <p>The duration of a sprint is determined by the scrum master, the team's facilitator. Once the team reaches a consensus for how many days a sprint should last, all future sprints should be the same. Traditionally, a sprint can last from one week to 30 days.</p>
+    </section>
 
-        <section>
-          <h2>Agile</h2>
-          <img src="images/sprints.png" alt="Sprint Diagram" />
-        </section>
+    <section>
+        <h2>Agile</h2>
+        <img src="images/sprints.png" alt="Sprint Diagram">
+    </section>
 
-        <section>
-          <h2>Agile Scrum</h2>
-          <img src="images/scrum.jpg" alt="SCrum Framework" />
-        </section>
+    <section>
+        <h2>Agile Scrum</h2>
+        <img src="images/scrum.jpg" alt="SCrum Framework">
+    </section>
 
-        <section>
-          <h2>Scrum Intro Video</h2>
-          <p>
-            <a
-              href="https://www.youtube.com/watch?v=9TycLR0TqFA"
-              target="_blank"
-              >Here</a
-            >
-          </p>
-        </section>
+    <section>
+        <h2>Scrum Intro Video</h2>
+        <p><a href="https://www.youtube.com/watch?v=9TycLR0TqFA" target="_blank">Here</a></p>
+    </section>
 
-        <section>
-          <h2>Review Exercise</h2>
-          <a
-            href="https://docs.google.com/document/d/1N0kNI-IkWrVskGKNFjOdGUX9ixdEba6HJd5a8bFglow/edit"
-            target="_blank"
-            ><p style="color: yellow;">DLH Page 96</p></a
-          >
-        </section>
+    <section>
+        <h2>Review Exercise</h2>
+        <a href="https://docs.google.com/document/d/1N0kNI-IkWrVskGKNFjOdGUX9ixdEba6HJd5a8bFglow/edit" target="_blank"><p style="color:yellow">DLH Page 96</p></a>
+    </section>
 
-        <section>
-          <h2>Waterfall Intro</h2>
-          <p>
-            <a
-              href="https://www.youtube.com/watch?v=LxEmGNgqYJA"
-              target="_blank"
-              >Watch Here</a
-            >
-          </p>
-        </section>
+    <section>
+        <h2>Waterfall Intro</h2>
+        <p><a href="https://www.youtube.com/watch?v=LxEmGNgqYJA" target="_blank">Watch Here</a></p>
+    </section>
 
-        <section>
-          <h2>Waterfall</h2>
-          <p>
-            The waterfall model shows a process, where developers are to follow
-            these steps in order:
-          </p>
-          <ol>
-            <li class="fragment">
-              Requirements specification (AKA Verification or Analysis)
-            </li>
-            <li class="fragment">Design</li>
-            <li class="fragment">
-              Construction (AKA implementation or coding)
-            </li>
-            <li class="fragment">Integration</li>
-            <li class="fragment">Testing and debugging (AKA validation)</li>
-            <li class="fragment">Installation (AKA deployment)</li>
-            <li class="fragment">Maintenance</li>
-          </ol>
-          <p class="fragment">
-            Like architects who build a house, the plan is to build the
-            foundation first and not revisit.
-          </p>
-        </section>
+    
 
-        <section>
-          <h2>Waterfall</h2>
-          <img src="images/waterfall.png" alt="Waterfall Diagram" />
-        </section>
+    <section>
+        <h2>Waterfall</h2>
+        <p>The waterfall model shows a process, where developers are to follow these steps in order:</p>
+        <ol>
+            <li class="fragment">Requirements specification (AKA Verification or Analysis) </li>
+            <li class="fragment">Design </li>
+            <li class="fragment">Construction (AKA implementation or coding) </li>
+            <li class="fragment">Integration </li>
+            <li class="fragment">Testing and debugging (AKA validation) </li>
+            <li class="fragment">Installation (AKA deployment) </li>
+            <li class="fragment">Maintenance </li>
+        </ol>
+        <p class="fragment">Like architects who build a house, the plan is to build the foundation first and not revisit.</p>
+    </section>
 
-        <section>
-          <h2>SDLC: 1) Planning and Analysis</h2>
-        </section>
+    <section>
+        <h2>Waterfall</h2>
+        <img src="images/waterfall.png" alt="Waterfall Diagram">
+    </section>
 
-        <section>
-          <h2>Important Vocabulary</h2>
-        </section>
+    <section>
+        <h2>SDLC: 1) Planning and Analysis</h2>
+    </section>
 
-        <section>
-          <p>
-            <span style="color: yellow;"
-              >When I say “software product” I mean…</span
-            >
-          </p>
-          <p class="fragment">
-            One or more pieces of software code that meet a need - or want -
-            someone has.
-          </p>
-        </section>
+    <section>
+        <h2>Important Vocabulary</h2>
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">When I say “software product” I mean…</span></p>
+        <p class="fragment">One or more pieces of software code that meet a need - or want - someone has.</p>
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">MVP</span></p>
+        <p class="fragment">The minimum viable product (MVP) is a version of a new product that is created with the least effort possible to be used for validated learning about customers.</p>
+        <a href="https://www.youtube.com/watch?v=0P7nCmln7PM" target="_blank" class="fragment">Watch this</a>
+    </section>
+ 
+     <section>
+        <p><span style="color:yellow">MVP</span></p>
+        <img src="images/MVP.jpeg" alt="">
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">MVP</span></p>
+        <img src="images/Minimum-Viable-Product-3.jpg" alt="">
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">Iterating</span></p>
+        <p class="fragment">Take one step at a time.  Build one function at a time.  Succeed with that function before moving to the next.  Build tools that rely upon one another in a logical order.</p>
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">A software product is “feasible” when…</span></p>
+        <p class="fragment">It is economical: it costs less than it earns. <br>
+         It is operational: it serves its intended purpose. <br>
+         It technically works: it doesn’t crash!</p>
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">Backlog</span></p>
+        <p class="fragment">The “to do” list of your software development needs.</p>
+    </section>
+ 
+    <section>
+        <p><span style="color:yellow">Metrics</span></p>
+        <p class="fragment">A metric is a standard of measurement. Software metrics are the statistics describing the structure or contact of a program. A metric should be a real objective measurement of something such as the number of bugs per lines of code.</p>
+    </section>
+ 
+     <section>
+        <p><span style="color:yellow">“ROI” (Return on Investment)</span></p>
+        <p class="fragment">Given two features that have EQUAL value to the customer, you would first build the one that took less work.</p>
+    </section>
 
-        <section>
-          <p><span style="color: yellow;">MVP</span></p>
-          <p class="fragment">
-            The minimum viable product (MVP) is a version of a new product that
-            is created with the least effort possible to be used for validated
-            learning about customers.
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=0P7nCmln7PM"
-            target="_blank"
-            class="fragment"
-            >Watch this</a
-          >
-        </section>
+    <section>
+        <h2>Planning and Analysis: First Step</h2>
+        <p class="fragment">Who are you building this product for?</p>
+        <p class="fragment">What problem is it solving?</p>
+        <p class="fragment">What do you want the outcome to be? (aka why are you building this thing?)</p>
+    </section>
 
-        <section>
-          <p><span style="color: yellow;">MVP</span></p>
-          <img src="images/MVP.jpeg" alt="" />
-        </section>
+    <section>
+        <h2>More on User Personas</h2>
+        <p>Who is using your product?</p>
+        <p><a href="https://www.youtube.com/watch?v=vZ578SqL1oA" target="_blank">More Here</a></p>
+    </section>
 
-        <section>
-          <p><span style="color: yellow;">MVP</span></p>
-          <img src="images/Minimum-Viable-Product-3.jpg" alt="" />
-        </section>
+    <section>
+        <h2>Establishing A User Persona</h2>
+        <p>Who is using your product?</p>
+        <img src="images/userpersona.png" alt="User Persona Diagram" width="600px">
+    </section>
 
-        <section>
-          <p><span style="color: yellow;">Iterating</span></p>
-          <p class="fragment">
-            Take one step at a time. Build one function at a time. Succeed with
-            that function before moving to the next. Build tools that rely upon
-            one another in a logical order.
-          </p>
-        </section>
+    
 
-        <section>
-          <p>
-            <span style="color: yellow;"
-              >A software product is “feasible” when…</span
-            >
-          </p>
-          <p class="fragment">
-            It is economical: it costs less than it earns. <br />
-            It is operational: it serves its intended purpose. <br />
-            It technically works: it doesn’t crash!
-          </p>
-        </section>
+    <section>
+        <h2>Different User Personas</h2>
+        <p>If you have different types of users, what are their different needs?</p>
+        <img src="images/matrix.jpg" alt="Different Users" width="600px">
+    </section>
 
-        <section>
-          <p><span style="color: yellow;">Backlog</span></p>
-          <p class="fragment">
-            The “to do” list of your software development needs.
-          </p>
-        </section>
-
-        <section>
-          <p><span style="color: yellow;">Metrics</span></p>
-          <p class="fragment">
-            A metric is a standard of measurement. Software metrics are the
-            statistics describing the structure or contact of a program. A
-            metric should be a real objective measurement of something such as
-            the number of bugs per lines of code.
-          </p>
-        </section>
-
-        <section>
-          <p>
-            <span style="color: yellow;">“ROI” (Return on Investment)</span>
-          </p>
-          <p class="fragment">
-            Given two features that have EQUAL value to the customer, you would
-            first build the one that took less work.
-          </p>
-        </section>
-
-        <section>
-          <h2>Planning and Analysis: First Step</h2>
-          <p class="fragment">Who are you building this product for?</p>
-          <p class="fragment">What problem is it solving?</p>
-          <p class="fragment">
-            What do you want the outcome to be? (aka why are you building this
-            thing?)
-          </p>
-        </section>
-
-        <section>
-          <h2>Establishing A User Persona</h2>
-          <p>Who is using your product?</p>
-          <img
-            src="images/userpersona.png"
-            alt="User Persona Diagram"
-            width="600px"
-          />
-        </section>
-
-        <section>
-          <h2>Different User Personas</h2>
-          <p>
-            If you have different types of users, what are their different
-            needs?
-          </p>
-          <img src="images/matrix.jpg" alt="Different Users" width="600px" />
-        </section>
-
-        <section>
-          <h2>Research</h2>
-          <ul>
+    <section>
+        <h2>Research</h2>
+        <ul>
             <li>User Interviews</li>
             <li>Valdiating Your Ideas</li>
             <li>Re-evaluating Your Assumptions</li>
-          </ul>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Research</h2>
+        <img src="images/research.jpeg" alt="Feedback Image">
+    </section>
+
+    <section>
+        <h2>Writing Requirements</h2>
+        <ol>
+            <li class="fragment"><span style="color:yellow">MARKETING REQUIREMENTS: </span>what you want to sell, and to who.</li>
+            <li class="fragment"><span style="color:yellow">PRODUCT REQUIREMENTS:</span> operations your product needs to complete.</li>
+            <li class="fragment"><span style="color:yellow">SYSTEM REQUIREMENTS: </span>external resources your product needs to run.</li>
+        </ol>
+    </section>
+    
+       <section>
+           <h2>Why are requirements important?</h2>
+           <img src="images/requirements.png" alt="different hair cuts">
+       </section>
+
+       <section>
+            <h2>Trying to avoid this...</h2>
+            <img src="images/eroor.png" alt="Different versions of a swing">
         </section>
 
-        <section>
-          <h2>Research</h2>
-          <img src="images/research.jpeg" alt="Feedback Image" />
-        </section>
+    <section>
+        <h2>Working with a PRD</h2>
+        <p><a href="https://docs.google.com/document/d/1FZi3b_MiLwTeXVCasbwbEqMz82l55aqGrgInhzxoF2A/edit?usp=sharing" target="_blank">Sample</a></p>
+    </section>
 
-        <section>
-          <h2>Writing Requirements</h2>
-          <ol>
-            <li class="fragment">
-              <span style="color: yellow;">MARKETING REQUIREMENTS: </span>what
-              you want to sell, and to who.
-            </li>
-            <li class="fragment">
-              <span style="color: yellow;">PRODUCT REQUIREMENTS:</span>
-              operations your product needs to complete.
-            </li>
-            <li class="fragment">
-              <span style="color: yellow;">SYSTEM REQUIREMENTS: </span>external
-              resources your product needs to run.
-            </li>
-          </ol>
-        </section>
+    <section>
+        <h2>SDLC: 2) Design</h2>
+    </section>
 
-        <section>
-          <h2>Why are requirements important?</h2>
-          <img src="images/requirements.png" alt="different hair cuts" />
-        </section>
+    <section>
+        <h2>Two Main Types of Design</h2>
+        <p class="fragment">User Experience Design (UX)</p>
+        <p class="fragment">Visual Design</p>
+    </section>
 
-        <section>
-          <h2>Trying to avoid this...</h2>
-          <img src="images/eroor.png" alt="Different versions of a swing" />
-        </section>
+    <section>
+        <h2>What is UX?</h2>
+        <p><a href="https://careerfoundry.com/en/blog/ux-design/what-does-a-ux-designer-actually-do/" target="_blank">Learn here</a></p>
+    </section>
 
-        <section>
-          <h2>Working with a PRD</h2>
-          <p>
-            <a
-              href="https://docs.google.com/document/d/1FZi3b_MiLwTeXVCasbwbEqMz82l55aqGrgInhzxoF2A/edit?usp=sharing"
-              >Sample</a
-            >
-          </p>
-        </section>
+    <section>
+        <h2>User Experience (UX) Design</h2>
+        <p>“All the expectations, all the questions, all the needs and all the ways of thinking in the users mind is like a baseball glove, the solution we come up with is like the baseball, that fits snuggly, right into that glove” (Ryan Singer).</p>
+        <p> In other words we, as designers, do all the thinking up front, so that when a user comes to our finished project, they don’t even have to think about anything, it just makes complete sense to them.</p>
+    </section>
 
-        <section>
-          <h2>SDLC: 2) Design</h2>
-        </section>
-
-        <section>
-          <h2>Two Main Types of Design</h2>
-          <p class="fragment">User Experience Design (UX)</p>
-          <p class="fragment">Visual Design</p>
-        </section>
-
-        <section>
-          <h2>User Experience (UX) Design</h2>
-          <p>
-            “All the expectations, all the questions, all the needs and all the
-            ways of thinking in the users mind is like a baseball glove, the
-            solution we come up with is like the baseball, that fits snuggly,
-            right into that glove” (Ryan Singer).
-          </p>
-          <p>
-            In other words we, as designers, do all the thinking up front, so
-            that when a user comes to our finished project, they don’t even have
-            to think about anything, it just makes complete sense to them.
-          </p>
-        </section>
-
-        <section>
-          <h2>Goals of a Good UX design</h2>
-          <ul>
-            <li class="fragment">
-              Ease of learning and relearning (learnability)
-            </li>
+    <section>
+        <h2>Goals of a Good UX design</h2>
+        <ul>
+            <li class="fragment">Ease of learning and relearning (learnability)</li>
             <li class="fragment">Ease of use (efficiency)</li>
             <li class="fragment">Consistency within and between products</li>
             <li class="fragment">First impressions</li>
@@ -461,950 +338,623 @@
             <li class="fragment">Satisfaction or likeability</li>
             <li class="fragment">Flexibility and discoverability</li>
             <li class="fragment">Improved collaboration for groups of users</li>
-          </ul>
-        </section>
+        </ul>
+    </section>
 
-        <section>
-          <h2>Putting it all together</h2>
-          <img src="images/uxd.png" alt="" />
-        </section>
+    <section>
+        <h2>Putting it all together</h2>
+        <img src="images/uxd.png" alt="">
+    </section>
 
-        <section>
-          <h2>UX Engineering</h2>
-          <p class="fragment">
-            User Experience includes three distinct groupings:
-          </p>
-          <img
-            class="fragment"
-            src="images/uxd2.png"
-            alt="Research Design and Processing"
-          />
-          <img
-            class="fragment"
-            src="images/uxd3.png"
-            alt="Research Components"
-          />
-        </section>
+    <section>
+        <h2>UX Engineering</h2>
+        <p class="fragment">User Experience includes three distinct groupings:  </p>
+        <img class="fragment" src="images/uxd2.png" alt="Research Design and Processing">
+        <img class="fragment" src="images/uxd3.png" alt="Research Components">
+    </section>
+    
+    <section>
+        <h2>Do's and Don'ts</h2>
+        <p>Click <a href="https://uxplanet.org/dos-and-don-ts-of-web-design-8c9d6a5de7c6?imm_mid=0f59e2" target="_blank">here</a> to read this article.</p>
+    </section>
 
-        <section>
-          <h2>Do's and Don'ts</h2>
-          <p>
-            Click
-            <a
-              href="https://uxplanet.org/dos-and-don-ts-of-web-design-8c9d6a5de7c6?imm_mid=0f59e2"
-              >here</a
-            >
-            to read this article.
-          </p>
-        </section>
+   
 
-        <!--Slide with list temp-->
-        <section>
-          <h2>Flow Chart Types</h2>
-          <aside class="notes">
-            Today we will only focus on user flow, but I want to show you the
-            range of different flow chart types so you can see how this method
-            can help you build apps in different ways
-          </aside>
-        </section>
+    <!--Slide with list temp-->
+    <section>
+        <h2>Flow Chart Types</h2>
+        <aside class="notes">Today we will only focus on user flow, but I want to show you the range of different flow chart types so you can see how this method can help you build apps in different ways</aside>
+    </section>
 
-        <section>
-          <h2>Macro Flow</h2>
-          <img
-            src="images/1-macroflow.png"
-            alt=""
-            width="800px"
-            height="550px"
-          />
-          <p>High level, main structure</p>
-          <aside class="notes"></aside>
-        </section>
+    <section>
+        <h2>Macro Flow</h2>
+        <img src="images/1-macroflow.png" alt="" width="800px" height="550px">
+        <p>High level, main structure</p>
+        <aside class="notes"></aside>
+    </section>
 
-        <section>
-          <h2>User Flow</h2>
-          <img src="images/2-userflow.png" alt="" />
+    <section>
+        <h2>User Flow</h2>
+        <img src="images/2-userflow.png" alt="">
+        
+        <aside class="notes"></aside>
+    </section>
 
-          <aside class="notes"></aside>
-        </section>
+    <section>
+        <h2>User Flow</h2>
+        <p>Describes a typical experience to use an app or website to complete a task.</p>
+        <p><a href="https://heap.io/blog/analysis/user-flows-guide" target="_blank">More here</a></p>
+    </section>
 
-        <section>
-          <h2>User Flow</h2>
-          <p>
-            Describes a typical experience to use an app or website to complete
-            a task.
-          </p>
-        </section>
+    <section>
+        <h2>Flow Chart Basic Elements</h2>
+        
+    </section>
 
-        <section>
-          <h2>Flow Chart Basic Elements</h2>
-        </section>
-
-        <section>
-          <img src="images/6-elements.png" alt="" />
-          <ul>
+    <section>
+        <img src="images/6-elements.png" alt="">
+        <ul>
             <li class="fragment">Areas</li>
             <li class="fragment">Line Weight</li>
             <li class="fragment">Shading</li>
             <li class="fragment">Color</li>
-          </ul>
-          <aside class="notes">
-            I'll show you how to connect these elements, this is the basic
-            layout, you want to go from left to right, top to bottom. Let me
-            draw a flow chart to show you how you can use these elements. Let's
-            use today's class as example.
-          </aside>
-        </section>
+        </ul>
+        <aside class="notes">I'll show you how to connect these elements, this is the basic layout, you want to go from left to right, top to bottom. Let me draw a flow chart to show you how you can use these elements. Let's use today's class as example.</aside>            
+    </section>  
 
-        <section>
-          <h2>Examples!</h2>
-        </section>
+    <section>
+        <h2>Examples!</h2>
+    </section>
 
-        <section>
-          <h2>Don't do this</h2>
-          <img src="images/7-dont.jpg" alt="" />
-          <ul>
-            <li class="fragment">
-              Break flows into small usecases and don't make it too complicated
-            </li>
-          </ul>
-          <aside class="notes">
-            what's wrong with this chart? confusing, too many scenarios, too
-            complicated. It's a communication tool, you want to keep the chart
-            simple, focus, easy to follow
-          </aside>
-        </section>
+    <section>
+        <h2>Don't do this</h2>
+        <img src="images/7-dont.jpg" alt="">
+        <ul>
+            <li class="fragment">Break flows into small usecases and don't make it too complicated</li>
+        </ul>            
+        <aside class="notes">what's wrong with this chart? confusing, too many scenarios, too complicated. It's a communication tool, you want to keep the chart simple, focus, easy to follow</aside>            
+    </section> 
 
-        <section>
-          <h2>A Good Example</h2>
-          <img src="images/8-fbsignup.png" alt="" />
-          <aside class="notes">
-            remember, you can tell the story from either a macro or micro view,
-            the key is to be simple and clear. If it still takes too long for my
-            audience to understand the flow, it's likely that my users will be
-            lost too before they can complete the task.
-          </aside>
-        </section>
+    <section>
+        <h2>A Good Example</h2>
+        <img src="images/8-fbsignup.png" alt="">        
+        <aside class="notes">remember, you can tell the story from either a macro or micro view, the key is to be simple and clear. If it still takes too long for my audience to understand the flow, it's likely that my users will be lost too before they can complete the task.</aside>            
+    </section>  
 
-        <section>
-          <h2>Forget Your Passwords Flow</h2>
-          <ul>
-            <li class="fragment">
-              Go to an online service like Gmail, Twitter or Yahoo
-            </li>
-            <li class="fragment">
-              Note all of the interactions in the “Forget your Password” flow.
-            </li>
-            <li class="fragment">
-              You should account for interactions in the flow. Error messages,
-              success messages, password reset and confirmation, etc.
-            </li>
-          </ul>
-        </section>
+    <section>
+        <h2>Forget Your Passwords Flow</h2>
+        <ul>
+            <li class="fragment">Go to an online service like Gmail, Twitter or Yahoo</li>
+            <li class="fragment">Note all of the interactions in the “Forget your Password” flow.</li>
+            <li class="fragment">You should account for interactions in the flow. Error messages, success messages, password reset and confirmation, etc.</li>
+        </ul>        
+    </section> 
 
-        <section>
-          <h2>App/Site Map</h2>
-          <p>
-            The site map is a list of all main topic areas of the site, as well
-            as sub-topics, if applicable. This serves as a guide as to what
-            content will be on the site, and is essential to developing a
-            consistent, easy to understand navigational system.
-          </p>
-        </section>
+    <section>
+        <h2>App/Site Map</h2>
+        <p>The site map is a list of all main topic areas of the site, as well as sub-topics, if applicable. This serves as a guide as to what content will be on the site, and is essential to developing a consistent, easy to understand navigational system.</p>
+    </section>  
 
-        <section>
-          <h2>App/Site Map</h2>
-          <img src="images/5-appmap.png" alt="" />
-          <aside class="notes">
-            With app map we can see what your app can do and what components it
-            has, as well as the relationships between them
-          </aside>
-        </section>
+    <section>
+        <h2>App/Site Map</h2>
+        <img src="images/5-appmap.png" alt="">
+        <aside class="notes">With app map we can see what your app can do and what components it has, as well as the relationships between them</aside>
+    </section>  
 
-        <section>
-          <h2>App/Site Map</h2>
-          <img src="images/appmap.png" alt="" />
-        </section>
+    <section>
+        <h2>App/Site Map</h2>
+        <img src="images/appmap.png" alt="">
+    </section>
 
-        <section>
-          <h2>Design/Prototyping/Wireframes</h2>
-          <ul>
-            <li class="fragment">
-              Drawing from the information gathered up to this point, it’s time
-              to determine the look and feel of your site.
-            </li>
-            <li class="fragment">
-              Target audience is one of the key factors taken into
-              consideration. It is also important to leave your own creative
-              mark.
-            </li>
-            <li class="fragment">
-              Wireframes are created for the purpose of arranging elements to
-              best accomplish a particular purpose. The wireframe depicts the
-              page layout or arrangement of the website’s content, including
-              interface elements and navigational systems, and how they work
-              together.
-            </li>
-            <li class="fragment">
-              Try it out:
-              <a href="https://gomockingbird.com/home">Mockingbird</a> OR
-              <a href="https://www.figma.com/">Figma</a>
-            </li>
-          </ul>
-        </section>
+    <section>
+        <h2>Design/Prototyping/Wireframes</h2>
+        <ul>
+            <li class="fragment">Drawing from the information gathered up to this point, it’s time to determine the look and feel of your site.</li>
+            <li class="fragment">Target audience is one of the key factors taken into consideration. It is also important to leave your own creative mark.</li>
+            <li class="fragment">Wireframes are created for the purpose of arranging elements to best accomplish a particular purpose. The wireframe depicts the page layout or arrangement of the website’s content, including interface elements and navigational systems, and how they work together.</li>
+            <li class="fragment">Try it out: <a href="https://gomockingbird.com/home" target="_blank">Mockingbird</a> OR <a href="https://www.figma.com/" target="_blank">Figma</a></li>
+        </ul>
+    </section>
 
-        <section>
-          <h2>Wireframes</h2>
-          <img src="images/wireframe.png" alt="" />
-          <p style="color: yellow;">DLH Page 98 - 101</p>
-        </section>
+    <section>
+        <h2>Wireframes</h2>
+        <img src="images/wireframe.png" alt="">
+        <p style = "color: yellow">DLH Page 98 - 101</p>
+    </section>
 
-        <section>
-          <h2>Your Project</h2>
-          <p>Work on creating the following for your project idea:</p>
-          <ul>
-            <li>
-              <a
-                href="https://docs.google.com/document/d/1tirqsGWQo-Ujmr-drmXIJsh1QkvSIqjDwzeh00gd0l8/edit?usp=sharing"
-                >Document Here</a
-              >
-            </li>
-          </ul>
-          <br />
-          <img src="images/exercise.gif" alt="Exercise Time" />
-        </section>
+    <section>
+        <h2>Your Project</h2>
+        <p>Work on creating the following for your project idea:</p>
+        <ul>
+            <li><a href="https://docs.google.com/document/d/1tirqsGWQo-Ujmr-drmXIJsh1QkvSIqjDwzeh00gd0l8/edit?usp=sharing" target="_blank">Document Here</a></li>
+        </ul>
+        <br/>
+        <img src="images/exercise.gif" alt="Exercise Time">
+    </section>
 
-        <section>
-          <h2>Visual Design</h2>
-        </section>
+    <section>
+        <h2>Visual Design</h2>
+    </section>
 
-        <section>
-          <h2>Your Tasks as a Visual Designer</h2>
-          <ul>
+    <section>
+        <h2>Your Tasks as a Visual Designer</h2>
+        <ul>
             <li class="fragment">Develop mood and theme(s) for the project</li>
             <li class="fragment">Develop color scheme</li>
             <li class="fragment">Develop typography</li>
-            <li class="fragment">
-              Develop a visual design layout for mobile, tablet, and desktop
-              platforms including any any all images
-            </li>
-          </ul>
-        </section>
+            <li class="fragment">Develop a visual design layout for mobile, tablet, and desktop platforms including any any all images</li>
+        </ul>
+    </section>
 
-        <section>
-          <h2>Design Principles</h2>
-          <p>
-            Read
-            <a
-              href="https://www.smashingmagazine.com/2015/06/design-principles-compositional-balance-symmetry-asymmetry"
-              >here</a
-            >
-          </p>
-        </section>
+    <section>
+        <h2>Design Principles</h2>
+        <p>Read <a href="https://www.smashingmagazine.com/2015/06/design-principles-compositional-balance-symmetry-asymmetry" target="_blank">here</a></p>
+    </section>
 
-        <section>
-          <h2>How to choose a font?</h2>
-          <a
-            href="https://blog.prototypr.io/typography-for-front-end-developers-46949338220e?imm_mid=0edae8"
-            >More here</a
-          >
-        </section>
+    <section>
+        <h2>What is Typography?</h2>
+        <a href="https://www.youtube.com/watch?v=sByzHoiYFX0" target="_blank">More here</a>
+    </section>
 
-        <section>
-          <h2>Color Theory and Material Design</h2>
-          <p>
-            You can learn about colors
-            <a
-              href="https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d"
-              >here</a
-            >
-            and about Google's design
-            <a href="https://material.io/guidelines/">here</a>
-          </p>
-        </section>
+    <section>
+        <h2>How to choose a font?</h2>
+        <a href="https://blog.prototypr.io/typography-for-front-end-developers-46949338220e?imm_mid=0edae8" target="_blank">More here</a>
+    </section>
 
-        <section>
-          <h2>Thinking about the Developers:</h2>
-          <p>
-            Important to make sure your designs work for the people who will
-            code them!
-          </p>
-          <p>
-            Read
-            <a
-              href="https://www.invisionapp.com/blog/design-with-developers-in-mind/"
-              >here</a
-            >
-          </p>
-        </section>
+    <section>
+        <h2>Color Theory and Material Design</h2>
+        <p>You can learn about colors <a href="https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d" target="_blank">here</a> and about Google's design <a href="https://material.io/guidelines/" target="_blank">here</a></p>
+    </section>
 
-        <section>
-          <h2>SDLC: 3) Development</h2>
-          <p>This means coding! We will start this step in Phase 2! :)</p>
-        </section>
+    <section>
+        <h2>Thinking about the Developers:</h2>
+        <p>Important to make sure your designs work for the people who will code them!</p>
+        <p>Read <a href="https://www.invisionapp.com/blog/design-with-developers-in-mind/" target="_blank">here</a></p>
+    </section>
 
-        <section>
-          <h2>SDLC: 4) Testing</h2>
-        </section>
+    <section>
+        <h2>SDLC: 3) Development</h2>
+        <p>This means coding! We will start this step in Phase 2! :)</p>
+    </section>
 
-        <section>
-          <h2>User Testing vs Software/Quality Assurance Testing</h2>
-          <p>What are the differences?</p>
-        </section>
+    <section>
+        <h2>SDLC: 4) Testing</h2>
+    </section>
 
-        <section>
-          <h2>Exercise</h2>
-          <p>
-            Perform a user test on
-            <a href="http://bighatpress.com">this website</a>.
-          </p>
-          <p>
-            Go to the <span style="color: yellow;">DLH Page 102</span> to
-            complete the test
-          </p>
-          <img src="images/exercise.gif" alt="Exercise Time" />
-        </section>
+    <section>
+        <h2>User Testing vs Software/Quality Assurance Testing</h2>
+        <p>What are the differences?</p>
+    </section>
 
-        <section>
-          <h2>What is Software Quality Assurance?</h2>
-          <p>
-            SQA is the overarching and systematic process under which a customer
-            specified product or service is created.
-          </p>
-          <p class="fragment">
-            SQA organizes, monitors, improves and audits the product or service
-            during every step of the software development lifecycle focusing on
-            the prevention of problems that software development is prone to
-            create.
-          </p>
-        </section>
+    <section>
+        <h2>Exercise</h2>
+        <p>Perform a user test on <a href="http://bighatpress.com" target="_blank">this website</a>.</p>
+        <p>Go to the <span style="color:yellow">DLH Page 102</span> to complete the test</p>
+        <img src="images/exercise.gif" alt="Exercise Time">
+    </section>
 
-        <section>
-          <h2>What is Software Testing?</h2>
-          <p>
-            Software testing describes a series or set of planned activities,
-            under controlled conditions, which are intentionally designed and
-            executed to uncover failures of the product or service being
-            developed.
-          </p>
-          <p class="fragment">
-            Errors and bugs are brought to light with testing, and any resulting
-            failures are recorded, detailed and forwarded back to the
-            development team for additional review and/or repair.
-          </p>
-        </section>
+    <section>
+        <h2>What is Software Quality Assurance?</h2>
+        <p>SQA is the overarching and systematic process under which a customer specified product or service is created.</p>
+        <p class="fragment">SQA organizes, monitors, improves and audits the product or service during every step of the software development lifecycle focusing on the prevention of problems that software development is prone to create. </p>
+    </section>
 
-        <section>
-          <h2>"Bug?"</h2>
-          <img src="images/bug.jpg" alt="" />
-          <br />
-          <a href="http://fivethirtyeight.com/features/the-queen-of-code/"
-            >Check out more about Grace Hopper here</a
-          >
-        </section>
+    <section>
+        <h2>What is Software Testing?</h2>
+        <p>Software testing describes a series or set of planned activities, under controlled conditions, which are intentionally designed and executed to uncover failures of the product or service being developed. </p>
+        <p class="fragment">Errors and bugs are brought to light with testing, and any resulting failures are recorded, detailed and forwarded back to the development team for additional review and/or repair. </p>
+    </section>
 
-        <section>
-          <h2>Why do companies need this?</h2>
-          <p>They want to know:</p>
-          <ul>
-            <li class="fragment">
-              <span style="color: orange;"
-                >If the software they built WORKS</span
-              >
-              (does the program run?)
-            </li>
-            <li class="fragment">
-              <span style="color: orange;">Where the software has BUGS</span>
-              (where does the software stop running? What parts of it don’t do
-              what they’re supposed to?)
-            </li>
-            <li class="fragment">
-              <span style="color: orange;"
-                >Does it still work for everyone
-              </span>
-              (if you click in an unusual place, does it still work as
-              intended?)
-            </li>
-            <li class="fragment">
-              <span style="color: orange;">What it is missing</span> (do you
-              need a BACK button?)
-            </li>
-          </ul>
-        </section>
+    <section>
+        <h2>"Bug?"</h2>
+        <img src="images/bug.jpg" alt="">
+        <br>
+        <a href="http://fivethirtyeight.com/features/the-queen-of-code/" target="_blank">Check out more about Grace Hopper here</a>
+    </section>
 
-        <section>
-          <h2>Why does software have bugs?</h2>
-          <ol>
-            <li class="fragment">
-              Lack of and/or poor communication between the customer and
-              developer
-            </li>
-            <li class="fragment">
-              A natural result of human factors, trying to mix human nature with
-              logical programming, compounded by the fact that multiple humans
-              were involved in writing the code
-            </li>
-            <li class="fragment">
-              The gluing together of many small fragments (units) of code into
-              one large and unwieldy program
-            </li>
-            <li class="fragment">Misinterpretation of the requirements</li>
-            <li class="fragment">
-              Compatibility issues between application software, operating
-              systems and target environments
-            </li>
-            <li class="fragment">
-              Size and complexity of the product being developed
-            </li>
-            <li class="fragment">
-              Programming errors by developers when writing code
-            </li>
-          </ol>
-        </section>
+   <section>
+       <h2>Why do companies need this?</h2>
+       <p>They want to know:</p>
+       <ul>
+           <li class="fragment"><span style="color:orange">If the software they built WORKS</span>  (does the program run?)</li>
+           <li class="fragment"><span style="color:orange">Where the software has BUGS</span> (where does the software stop running? What parts of it don’t do what they’re supposed to?)</li>
+           <li class="fragment"><span style="color:orange">Does it still work for everyone </span> (if you click in an unusual place, does it still work as intended?)</li>
+           <li class="fragment"><span style="color:orange">What it is missing</span>  (do you need a BACK button?)</li>
+       </ul>
+   </section>
 
-        <section>
-          <p>
-            It’s not about finding WHETHER the software has defects - all
-            software does.
-          </p>
-          <p>
-            It’s about finding
-            <span style="color: yellow;"
-              >how many bugs or defects or oversights exist and where they
-              are</span
-            >.
-          </p>
-        </section>
+   <section>
+       <h2>Why does software have bugs?</h2>
+       <ol>
+           <li class="fragment">Lack of and/or poor communication between the customer and developer</li>
+           <li class="fragment">A natural result of human factors, trying to mix human nature with logical programming, compounded by the fact that multiple humans were involved in writing the code</li>
+           <li class="fragment">The gluing together of many small fragments (units) of code into one large and unwieldy program</li>
+           <li class="fragment">Misinterpretation of the requirements</li>
+           <li class="fragment">Compatibility issues between application software, operating systems and target environments</li>
+           <li class="fragment">Size and complexity of the product being developed</li>
+           <li class="fragment">Programming errors by developers when writing code </li>
+       </ol>
+   </section>
 
-        <section>
-          <h2>Different Types of Testing</h2>
-          <ul>
+   <section>
+       <p>It’s not about finding WHETHER the software has defects - all software does. </p>
+       <p>It’s about finding <span style="color:yellow">how many bugs or defects or oversights exist and where they are</span>.</p>
+   </section>
+
+   <section>
+        <h2>Different Types of Testing</h2>
+        <ul>
             <li class="fragment">Unit testing: The brick of a house</li>
-            <li class="fragment">
-              Integration testing: The wall made of many bricks
-            </li>
+            <li class="fragment">Integration testing: The wall made of many bricks</li>
             <li class="fragment">System testing: The whole house</li>
-            <li class="fragment">
-              User acceptance testing: The potential buyer of the house
-            </li>
-          </ul>
-        </section>
+            <li class="fragment">User acceptance testing: The potential buyer of the house</li>
+        </ul>
+    </section>
 
-        <section>
-          <h2>A Good Requirements Tester</h2>
-          <p>First, look at all the requirements!</p>
-          <ul>
-            <li class="fragment" style="color: yellow;">
-              For each requirement you are testing:
-            </li>
-            <ol>
-              <li class="fragment">
-                the same meaning should be obvious to everyone in the room.
-              </li>
-              <li class="fragment">
-                it can produce a measurable result (so you can verify)
-              </li>
-              <li class="fragment">it’s possible</li>
-              <li class="fragment">
-                it’s irreplaceable with other parts of the product/design
-              </li>
-              <li class="fragment">
-                all the requirements together describe the whole product
-              </li>
-            </ol>
-          </ul>
-        </section>
+   <section>
+       <h2>A Good Requirements Tester</h2>
+       <p>First, look at all the requirements!</p>
+       <ul>
+           <li class="fragment" style="color:yellow">For each requirement you are testing:</li>
+           <ol>
+               <li class="fragment">the same meaning should be obvious to everyone in the room.</li>
+               <li class="fragment">it can produce a measurable result (so you can verify)</li>
+               <li class="fragment">it’s possible</li>
+               <li class="fragment">it’s irreplaceable with other parts of the product/design</li>
+               <li class="fragment">all the requirements together describe the whole product</li>
+           </ol>
+       </ul>
+   </section>
 
-        <section>
-          <h2>A Good Requirements Tester</h2>
-          <p>Second, test the development!</p>
-          <ul>
-            <li class="fragment" style="color: yellow;">
-              You’ll need to have and know:
-            </li>
-            <ol>
-              <li class="fragment">
-                how long you have for testing and when results are due
-              </li>
-              <li class="fragment">
-                what external resources you’ll use to test
-              </li>
-              <li class="fragment">
-                what functions/requirements you will test and how you will test
-                them
-              </li>
-              <li class="fragment">
-                what testing instruction you’ll follow and what result you
-                should get
-              </li>
-            </ol>
-          </ul>
-        </section>
+   <section>
+       <h2>A Good Requirements Tester</h2>
+       <p>Second, test the development! </p>
+       <ul>
+           <li class="fragment" style="color:yellow">You’ll need to have and know:</li>
+           <ol>
+               <li class="fragment">how long you have for testing and when results are due</li>
+               <li class="fragment">what external resources you’ll use to test</li>
+               <li class="fragment">what functions/requirements you will test and how you will test them</li>
+               <li class="fragment">what testing instruction you’ll follow and what result you should get</li>
+           </ol>
+       </ul>
+   </section>
 
-        <section>
-          <h2>Test Case</h2>
-          <p>
-            Each requirement you are testing should have all this information
-            organized into a TEST CASE. Each testing project is a collection of
-            TEST CASES. Expect a TEST CASE for each combination of:
-          </p>
-          <img src="images/testcase.png" alt="" />
-        </section>
+   <section>
+       <h2>Test Case</h2>
+       <p>Each requirement you are testing should have all this information organized into a TEST CASE. Each testing project is a collection of TEST CASES.  Expect a TEST CASE for each combination of:</p>
+       <img src="images/testcase.png" alt="">
+   </section>
 
-        <section>
-          <h2>Remember</h2>
-          <p>
-            We’ll always leave time between testing and the planned launch date.
-            <span style="color: yellow;">Why?</span>
-          </p>
-          <ul>
-            <li class="fragment">Developers need time to fix bugs!</li>
-            <li class="fragment">
-              Once things are fixed, they need to be tested again!
-            </li>
-            <li class="fragment">
-              The last thing you test could be the biggest problem!
-            </li>
-          </ul>
-        </section>
+   <section>
+       <h2>Remember</h2>
+       <p>We’ll always leave time between testing and the planned launch date.  <span style="color:yellow">Why?</span></p>
+       <ul>
+           <li class="fragment">Developers need time to fix bugs!</li>
+           <li class="fragment">Once things are fixed, they need to be tested again!</li>
+           <li class="fragment">The last thing you test could be the biggest problem!</li>
+       </ul>
+   </section>
 
-        <section>
-          <p>
-            You win good reviews, happy clients, and more income if you deliver:
-          </p>
-          <ul>
-            <li>organized feedback</li>
-            <li>detailed feedback</li>
-            <li>complete feedback</li>
-            <li>timely feedback</li>
-          </ul>
-          <p>on the product that helps the client fix or improve it</p>
-        </section>
+   <section>
+       <p>You win good reviews, happy clients, and more income if you deliver:</p>
+       <ul>
+           <li>organized feedback</li>
+           <li>detailed feedback</li>
+           <li>complete feedback</li>
+           <li>timely feedback</li>
+       </ul>
+       <p>on the product that helps the client fix or improve it</p>
+   </section>
 
-        <section>
-          <h2>HOW DO YOU TEST?</h2>
-          <p>BE ORGANIZED</p>
-          <p>BE DETAILED</p>
-          <p>BE CONSISTENT</p>
-          <p>USE SCREENSHOTS!</p>
-          <p>
-            As a bonus, if you run a detailed test on a product you will
-            understand how it works almost as well as the developer who built
-            it!
-          </p>
-        </section>
+   <section>
+       <h2>HOW DO YOU TEST?</h2>
+       <p>BE ORGANIZED</p>
+       <p>BE DETAILED</p>
+       <p>BE CONSISTENT</p>
+       <p>USE SCREENSHOTS!</p>
+       <p>As a bonus, if you run a detailed test on a product you will understand how it works almost as well as the developer who built it!</p>
+   </section>
 
-        <section>
-          <h2>Bug Reports</h2>
-          <p>In a great bug report, you will find:</p>
-          <ul>
-            <li class="fragment">
-              START the report with a summary of the big problem.
-            </li>
-            <li class="fragment">
-              DESCRIBE the steps you took to reach the problem, the environment
-              your were using, and how it might effect a customer.
-            </li>
-            <li class="fragment">
-              Include things like your device type, OS version/BIOS version,
-              browser type, connection speed and type. Make sure the problem is
-              not you (like a weak wifi signal).
-            </li>
-          </ul>
-        </section>
+   <section>
+       <h2>Bug Reports</h2>
+       <p>In a great bug report, you will find:</p>
+       <ul>
+           <li class="fragment">START the report with a summary of the big problem.</li>
+           <li class="fragment">DESCRIBE the steps you took to reach the problem, the environment your were using, and how it might effect a customer.</li>
+           <li class="fragment">Include things like your device type, OS version/BIOS version, browser type, connection speed and type.  Make sure the problem is not you (like a weak wifi signal).</li>
+       </ul>
+   </section>
 
-        <section>
-          <h2>Bug Report continued</h2>
-          <ul>
-            <li class="fragment">
-              Report problems that are
-              <span style="color: yellow;">REPRODUCIBLE</span> - in other words,
-              they will be there not matter who follows the steps you did. Make
-              sure you can reproduce every problem at least 3 times with the
-              process in your report.
-            </li>
-            <li class="fragment">
-              Still make a note if it happened once, but add that it wasn’t
-              reproducible.
-            </li>
-            <li class="fragment">
-              SEPARATE each bug into a different report segment. Organize them
-              according to how serious they are.
-            </li>
-          </ul>
-        </section>
+   <section>
+       <h2>Bug Report continued</h2>
+       <ul>
+           <li class="fragment">Report problems that are <span style="color:yellow;">REPRODUCIBLE</span> - in other words, they will be there not matter who follows the steps you did.  Make sure you can reproduce every problem at least 3 times with the process in your report. </li>
+           <li class="fragment">Still make a note if it happened once, but add that it wasn’t reproducible.</li>
+           <li class="fragment">SEPARATE each bug into a different report segment.  Organize them according to how serious they are.</li>
+       </ul>
+   </section>
 
-        <section>
-          <h2>In an Awesome bug report, you'll find:</h2>
-          <ul>
-            <li class="fragment">LOTS of detail.</li>
-            <li class="fragment">
-              The same names and terminology found in the product.
-            </li>
-            <li class="fragment">
-              A comparison of the actual results to the expected results in the
-              test plan.
-            </li>
-            <li class="fragment">
-              Says, “product wasn’t doing x when y” NOT “there’s a problem.”
-            </li>
-            <li class="fragment">Statement of Severity….</li>
-          </ul>
-        </section>
+   <section>
+       <h2>In an Awesome bug report, you'll find:</h2>
+       <ul>
+           <li class="fragment">LOTS of detail.</li>
+           <li class="fragment">The same names and terminology found in the product.</li>
+           <li class="fragment">A comparison of the actual results to the expected results in the test plan.</li>
+           <li class="fragment">Says, “product wasn’t doing x when y” NOT “there’s a problem.”</li>
+           <li class="fragment">Statement of Severity….</li>
+       </ul>
+   </section>
 
-        <section>
-          <h2>Sample severity scale:</h2>
-          <ul style="font-size: 25px;">
-            <li class="fragment">
-              <span style="color: red;">P0:</span> this problem makes the
-              product useless or makes it fail its essential function. It should
-              be fixed ASAP and before all others.
-            </li>
-            <li class="fragment">
-              <span style="color: red;">P1:</span> this problem seriously
-              affects the product’s usability and needs to be fixed as soon as
-              P0s are fixed.
-            </li>
-            <li class="fragment">
-              <span style="color: red;">P2:</span> this problem results in a
-              noticeably poor user experience. It’s still a high-priority fix.
-            </li>
-            <li class="fragment">
-              <span style="color: red;">P3:</span> this problem degrades the
-              user experience in ways that are not obvious to every user, or
-              effects only a small portion of users noticeably.
-            </li>
-            <li class="fragment">
-              <span style="color: red;">P4:</span> this problem results in a
-              noticeably poor user experience (but not uselessness) for only
-              some users or some cases. It’s still a high-priority fix.
-            </li>
-            <li class="fragment">
-              <span style="color: red;">P5:</span> this problem would be nice to
-              fix but isn’t mission-critical.
-            </li>
-          </ul>
-        </section>
+   <section>
+       <h2>Sample severity scale:</h2>
+       <ul style="font-size:25px">
+            <li class="fragment"> <span style="color:red;">P0:</span> this problem makes the product useless or makes it fail its essential function.  It should be fixed ASAP and before all others.</li>
+            <li class="fragment"> <span style="color:red;">P1:</span> this problem seriously affects the product’s usability and needs to be fixed as soon as P0s are fixed.</li>
+            <li class="fragment"> <span style="color:red;">P2:</span> this problem results in a noticeably poor user experience. It’s still a high-priority fix.</li>
+            <li class="fragment"> <span style="color:red;">P3:</span> this problem degrades the user experience in ways that are not obvious to every user, or effects only a small portion of users noticeably.</li>
+            <li class="fragment"> <span style="color:red;">P4:</span> this problem results in a noticeably poor user experience (but not uselessness) for only some users or some cases. It’s still a high-priority fix.</li>
+            <li class="fragment"> <span style="color:red;">P5:</span> this problem would be nice to fix but isn’t mission-critical.</li>
+       </ul>
+   </section>
 
-        <section>
-          <h2>Bug Report: Presentation Matters</h2>
-          <p class="fragment">
-            Use neutral, descriptive statements to describe issues.
-          </p>
-          <p class="fragment">
-            USE THE FORMAT AND TERMINOLOGY WE CREATE FOR THE PROJECT
-          </p>
-          <p class="fragment">
-            DON’T insult individual developers or use personalized criticism
-          </p>
-          <p class="fragment">
-            DON’T use humor or sarcasm - it won’t come across
-          </p>
-        </section>
+   <section>
+       <h2>Bug Report: Presentation Matters</h2>
+       <p class="fragment">Use neutral, descriptive statements to describe issues.</p>
+       <p class="fragment">USE THE FORMAT AND TERMINOLOGY WE CREATE FOR THE PROJECT</p>
+       <p class="fragment">DON’T insult individual developers or use personalized criticism</p>
+       <p class="fragment">DON’T use humor or sarcasm - it won’t come across </p>
+   </section>
 
-        <section>
-          <h2>Example Bug Report</h2>
-          <a
-            href="https://docs.google.com/a/anniecannons.com/document/d/1zv6DaVxhv26_GIr3zyw4GoQeNbTVZaES8V1hyXg43n8/edit?usp=sharing"
-            >Click here</a
-          >
-        </section>
+   <section>
+       <h2>Example Bug Report</h2>
+       <a href="https://docs.google.com/a/anniecannons.com/document/d/1zv6DaVxhv26_GIr3zyw4GoQeNbTVZaES8V1hyXg43n8/edit?usp=sharing" target="_blank">Click here</a>
+   </section>
 
-        <section>
-          <h2>Review</h2>
-          <p style="color: yellow;">
-            What is the most important process in a life cycle of a product and
-            why?
-          </p>
-          <p class="fragment">
-            The most important part of the life cycle is the requirement stage.
-            The majority of bugs can be found in bad requirements and thus will
-            save the company you work for millions of dollars. Bad requirements
-            can cause confusion between teams and can create chaos at the
-            workplace.
-          </p>
-        </section>
+    
+    <section>
+        <h2>Review</h2>
+        <p style="color:yellow">What is the most important process in a life cycle of a product and why?</p>
+        <p class="fragment">The most important part of the life cycle is the requirement stage. The majority of bugs can be found in bad requirements and thus will save the company you work for millions of dollars. Bad requirements can cause confusion between teams and can create chaos at the workplace.</p>
+    </section>
 
-        <section>
-          <h2>Review</h2>
-          <p style="color: yellow;">Why would you log a defect?</p>
-          <p class="fragment">
-            It is the job of a tester to find bugs. If bugs are not logged, then
-            there would be no record of the bug found and it would not get
-            fixed. These errors would remain in the code when the customer
-            received the product.
-          </p>
-        </section>
+    <section>
+        <h2>Review</h2>
+        <p style="color:yellow">Why would you log a defect?</p>
+        <p class="fragment">It is the job of a tester to find bugs. If bugs are not logged, then there would be no record of the bug found and it would not get fixed. These errors would remain in the code when the customer received the product.</p>
+    </section>
 
-        <section>
-          <h2>Review</h2>
-          <p style="color: yellow;">What are metrics?</p>
-          <p class="fragment">
-            A metric is a standard of measurement. Software metrics are the
-            statistics describing the structure or content of a program. A
-            metric should be a real objective measurement of something such as
-            number of bugs per lines of code.
-          </p>
-        </section>
+    <section>
+        <h2>Review</h2>
+        <p style="color:yellow">What are metrics?</p>
+        <p class="fragment">A metric is a standard of measurement. Software metrics are the statistics describing the structure or content of a program. A metric should be a real objective measurement of something such as number of bugs per lines of code.</p>
+    </section>
 
-        <section>
-          <h2>Review</h2>
-          <p style="color: yellow;">What are requirements?</p>
-          <p class="fragment">
-            A requirement is a guideline to what the program or product is
-            supposed to do. Good requirement need to be clear, concise and
-            unambiguous because there may be a large group of people that will
-            read the requirement. A requirement also needs to be verifiable,
-            feasible, necessary and complete.
-          </p>
-        </section>
+    <section>
+        <h2>Review</h2>
+        <p style="color:yellow">What are requirements?</p>
+        <p class="fragment">A requirement is a guideline to what the program or product is supposed to do. Good requirement need to be clear, concise and unambiguous because there may be a large group of people that will read the requirement. A requirement also needs to be verifiable, feasible, necessary and complete.</p>
+    </section>
 
-        <section>
-          <h2>When reading requirements, remember to ask:</h2>
-          <img src="images/how.png" alt="" />
-        </section>
+    <section>
+        <h2>When reading requirements, remember to ask:</h2>
+        <img src="images/how.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect1.png" alt="" />
-        </section>
+    <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect1.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect2.png" alt="" />
-        </section>
+    <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect2.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect3.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect3.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect4.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect4.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect5.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect5.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect6.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect6.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect7.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect7.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect8.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect8.png" alt="">
+    </section>
 
-        <section>
-          <h2>Defect Lifecycle</h2>
-          <img src="images/defect9.png" alt="" />
-        </section>
+     <section>
+        <h2>Defect Lifecycle</h2>
+        <img src="images/defect9.png" alt="">
+    </section>
 
-        <section>
-          <h2>Review Exercise</h2>
-          <img src="images/exercise.gif" alt="Exercise Gif" />
-          <p style="color: yellow;">DLH Page 106</p>
-        </section>
+    <section>
+        <h2>Review Exercise</h2>
+        <img src="images/exercise.gif" alt="Exercise Gif">
+        <p style="color:yellow">DLH Page 106</p>
+    </section>
 
-        <!-- Project -->
 
-        <section>
-          <h2>Testing Project</h2>
-          <p>Introducing the tools you will be using.</p>
-          <ul>
+    <!-- Project -->
+
+    <section>
+        <h2>Testing Project</h2>
+        <p>Introducing the tools you will be using.</p>
+        <ul>
             <li class="fragment">Harvest</li>
             <li class="fragment">Airtable</li>
-          </ul>
-        </section>
+        </ul>
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <p>Track your time!</p>
-          <img src="images/timeclock.gif" alt="Clock Gif" width="300px" />
-        </section>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <p>Track your time!</p>
+        <img src="images/timeclock.gif" alt="Clock Gif" width="300px">
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <p>Steps To Get Started</p>
-          <ul>
-            <li class="fragment">
-              Accept your invitation to AnnieCannons team
-            </li>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <p>Steps To Get Started</p>
+        <ul>
+            <li class="fragment">Accept your invitation to AnnieCannons team</li>
             <li class="fragment">Add Harvest as a bookmark in Chrome</li>
             <li class="fragment">Download the Harvest App on Your Phone</li>
-          </ul>
-        </section>
+        </ul>
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <p>A New Project</p>
-          <img src="images/harvest1.png" alt="Harvest Chart" />
-        </section>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <p>A New Project</p>
+        <img src="images/harvest1.png" alt="Harvest Chart">
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <p>Entering Your Time</p>
-          <img
-            src="images/harvest2.png"
-            alt="Harvest Time Dashboard"
-            width="600px"
-          />
-        </section>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <p>Entering Your Time</p>
+        <img src="images/harvest2.png" alt="Harvest Time Dashboard" width="600px">
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <p>Entering Your Time</p>
-          <p>Be sure to select the correct project and task</p>
-          <p>
-            Also, leave detailed notes on what you worked on. 1-2 sentences.
-          </p>
-        </section>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <p>Entering Your Time</p>
+        <p>Be sure to select the correct project and task</p>
+        <p>Also, leave detailed notes on what you worked on. 1-2 sentences.</p>
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <p>Submitting and Reviewing Time</p>
-          <ul>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <p>Submitting and Reviewing Time</p>
+        <ul>
             <li class="fragment">Go to Time --> Timesheet</li>
-            <li class="fragment">
-              From Time --> Timesheet click the Submit for Approval button
-              (lower right corner).
-            </li>
-            <li class="fragment">
-              If you’ve tracked only time, your timesheet will then submit.
-            </li>
-            <li class="fragment">
-              If you forget to enter hours daily, you only have until THAT
-              FRIDAY to record those hours in Harvest. After payment is issued,
-              we WILL NOT make corrections or adjustments.
-            </li>
-          </ul>
-        </section>
+            <li class="fragment"> From Time --> Timesheet click the Submit for Approval button (lower right corner). </li>
+            <li class="fragment">If you’ve tracked only time, your timesheet will then submit.</li>
+            <li class="fragment">If you forget to enter hours daily, you only have until THAT FRIDAY to record those hours in Harvest. After payment is issued, we WILL NOT make corrections or adjustments.</li>
+        </ul>
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <h2>Troubleshooting</h2>
-          <p>Forgetting To Enter Time</p>
-          <ol>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <h2>Troubleshooting</h2>
+        <p>Forgetting To Enter Time</p>
+        <ol>	
             <li class="fragment">Do your best estimate.</li>
-            <li class="fragment">
-              Get in the habit of always having harvest open when you are
-              working.
-            </li>
-            <li class="fragment">
-              Do not track hours somewhere else and then enter them in Harvest -
-              use Harvest first.
-            </li>
-          </ol>
-        </section>
+            <li class="fragment">Get in the habit of always having harvest open when you are working.</li>
+            <li class="fragment">Do not track hours somewhere else and then enter them in Harvest - use Harvest first.</li>
+        </ol>
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <h2>Troubleshooting</h2>
-          <p>Leaving Your Timer On</p>
-          <ol>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <h2>Troubleshooting</h2>
+        <p>Leaving Your Timer On</p>
+        <ol>
             <li class="fragment">Harvest will send you an email</li>
-            <li class="fragment">
-              Harvest will also show you an alert when you log back in.
-            </li>
-            <li class="fragment">
-              Edit the time to the best of your knowledge as soon as you can.
-            </li>
-          </ol>
-        </section>
+            <li class="fragment">Harvest will also show you an alert when you log back in.</li>
+            <li class="fragment">Edit the time to the best of your knowledge as soon as you can.</li>
+        </ol>
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <h2>Number One Rule</h2>
-          <p>You Don't Enter Hours On Time, You Don't Get Paid.</p>
-          <img src="images/sadgif.gif" alt="Sad Cat" />
-        </section>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <h2>Number One Rule</h2>
+        <p>You Don't Enter Hours On Time, You Don't Get Paid.</p>
+        <img src="images/sadgif.gif" alt="Sad Cat">
+    </section>
 
-        <section>
-          <img src="images/harvest.png" alt="Harvest Logo" />
-          <h2>Practice Project</h2>
-          <p>
-            For the next week of class, track your hours in class. Keep detailed
-            notes and keep time accurately.
-          </p>
-          <img src="images/exercise.gif" alt="Exercise Gif" />
-        </section>
+    <section>
+        <img src="images/harvest.png" alt="Harvest Logo">
+        <h2>Practice Project</h2>
+        <p>For the next week of class, track your hours in class. Keep detailed notes and keep time accurately.</p>
+        <img src="images/exercise.gif" alt="Exercise Gif">
+    </section>
 
-        <section>
-          <h2>AirTable</h2>
-          <img src="images/airtable.png" alt="Airtable Logo" />
-          <p>Spreadsheets with screenshots</p>
-        </section>
+    <section>
+        <h2>AirTable</h2>
+        <img src="images/airtable.png" alt="Airtable Logo">
+        <p>Spreadsheets with screenshots</p>
+    </section>
 
-        <section>
-          <h2>AirTable</h2>
-          <p>Sharing a Spreadsheet</p>
-          <p>Adding screenshots</p>
-        </section>
+    <section>
+        <h2>AirTable</h2>
+        <p>Sharing a Spreadsheet</p>
+        <p>Adding screenshots</p>
+    </section>
 
-        <section>
-          <h2>Testing Project Kickoff</h2>
-        </section>
+    <section>
+        <h2>Testing Project Kickoff</h2>
+    </section>
 
-        <section style="text-align: left;">
-          <h1>THE END</h1>
-          <p>Thank you for your attention!</p>
-        </section>
-      </div>
+    <section style="text-align: left;">
+        <h1>THE END</h1>
+        <p>Thank you for your attention!</p>
+    </section>
+
+
     </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+</div>
 
-    <script>
-      // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
         controls: true,
         progress: true,
         history: true,
         center: true,
 
-        transition: "slide", // none/fade/slide/convex/concave/zoom
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
 
         // Optional reveal.js plugins
         dependencies: [
-          {
-            src: "lib/js/classList.js",
-            condition: function () {
-              return !document.body.classList;
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
             },
-          },
-          {
-            src: "plugin/markdown/marked.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
             },
-          },
-          {
-            src: "plugin/markdown/markdown.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
             },
-          },
-          {
-            src: "plugin/highlight/highlight.js",
-            async: true,
-            callback: function () {
-              hljs.initHighlightingOnLoad();
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
             },
-          },
-          { src: "plugin/zoom-js/zoom.js", async: true },
-          { src: "plugin/notes/notes.js", async: true },
-        ],
-      });
-    </script>
-  </body>
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+</body>
 </html>
